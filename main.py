@@ -18,7 +18,8 @@ def isprime(p):
 
 def main():
 
-    # vos appels à la fonction secondaire ici
+    print(isprime(731))
+    print(isprime(733))
 
     for n in range(100):
         if isprime(n):
