@@ -18,8 +18,7 @@ def isprime(p):
 
 def main():
 
-    print(isprime(731))
-    print(isprime(733))
+    
 
     for n in range(100):
         if isprime(n):
