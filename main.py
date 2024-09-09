@@ -8,7 +8,7 @@ def isprime(p):
     while i < p and p % i != 0:
         i = i + 1
     if i == p :
-        print(p ,": True")
+        print(p ,"est un nombre premier")
     
 
     pass
