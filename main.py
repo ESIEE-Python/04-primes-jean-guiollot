@@ -4,8 +4,12 @@ from math import sqrt
 
 
 def isprime(p):
-
-    # votre code ici
+    i = 2
+    while i < p and p % i != 0:
+        i = i + 1
+    if i == p :
+        print(p ,": True")
+    
 
     pass
 
